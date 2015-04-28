@@ -1,0 +1,9 @@
+{
+  "slug": "racket",
+  "language": "Racket",
+  "repository": "https://github.com/exercism/xracket",
+  "active": false,
+  "problems": [
+    "bob"
+  ]
+}
