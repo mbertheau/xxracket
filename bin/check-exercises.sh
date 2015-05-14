@@ -5,9 +5,9 @@ for exercise in *; do
         cd $exercise
         if [ -f $exercise-test.rkt ]; then
             echo Testing $exercise...
-            cp example.rkt $exercise.rkt
+            mv example.rkt $exercise.rkt
             racket $exercise-test.rkt
-            rm $exercise.rkt
+            mv $exercise.rkt example.rkt
         fi
         cd ..
     fi
